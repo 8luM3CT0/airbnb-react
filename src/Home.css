@@ -1,0 +1,19 @@
+.home {
+    overflow-y: scroll;
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}
+
+.home_section {
+    display: flex;
+    padding: 30px;
+}
+
+.home_section>img {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
